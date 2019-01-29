@@ -21,7 +21,7 @@ public class GeradorModeloGrafico {
 		this.modeloGrafico = new LineChartModel();
 	}
 	
-	public void plotaMediaMovelSimples__(Indicador indicador){
+	public void plotaMediaMovelSimples(Indicador indicador){
 		LineChartSeries chartSerie = new LineChartSeries(indicador.toString());
 		
 		for(int i = comeco;i<=fim;i++){
