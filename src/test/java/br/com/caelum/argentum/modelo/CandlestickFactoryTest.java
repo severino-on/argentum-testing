@@ -70,7 +70,7 @@ public class CandlestickFactoryTest {
 		Negociacao negociacao4 = new Negociacao(42.3, 100, hoje);
 
 		Calendar amanha = (Calendar) hoje.clone();
-		amanha.add(Calendar.DAY_OF_MONTH, 1);
+		amanha_.add(Calendar.DAY_OF_MONTH, 1);
 
 		Negociacao negociacao5 = new Negociacao(48.8, 100, amanha);
 		Negociacao negociacao6 = new Negociacao(49.3, 100, amanha);
